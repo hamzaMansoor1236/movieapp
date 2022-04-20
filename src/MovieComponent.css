@@ -1,0 +1,60 @@
+.App{
+    background-color: cornflowerblue;
+    
+}
+.App>h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.movie-container{
+
+    display: flex;
+    flex-direction: column;
+}
+.movie-list
+{
+ display: flex;
+ 
+ 
+ flex-wrap:wrap;
+ align-content: center;
+ justify-content: center;
+}
+.movie{
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.movie>p{
+    font-size: larger;
+   
+}
+
+.image{
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.nav-bar{
+    background-color:lightblue;
+    display: flex;
+    justify-content:left;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.nav-bar>h3{
+    margin-left: 5px;
+}
+
+.nav-bar>h4{
+    
+    margin-left: 70px;
+    color: blue;
+
+}
+
